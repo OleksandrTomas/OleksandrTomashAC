@@ -5,13 +5,13 @@ class Calculator
 {
     public:
         int Sub (double, double);
-        int Add (double, double);
-        int Mul (double, double);
 #a
 #b
 #c
 #d
 #e
+        static int Add (int, int);
+        static int Mul (double, double);
 };
 
 #endif//CALCULATOR_H
