@@ -1,0 +1,4 @@
+/home/oleksandr/project/calabs/lab3/build/CMakeFiles/MyProject.dir
+/home/oleksandr/project/calabs/lab3/build/CMakeFiles/Project.dir
+/home/oleksandr/project/calabs/lab3/build/CMakeFiles/edit_cache.dir
+/home/oleksandr/project/calabs/lab3/build/CMakeFiles/rebuild_cache.dir
