@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm ~/repos/busybox/_install/lab6/hello.ko
+cp hello.ko ~/repos/busybox/_install/lab6
+cd ~/repos/busybox/_install
+find . | cpio -o -H newc | gzip > ../rootfs.cpio.gz
+cd ~/repos/busybox
+qemu-system-arm -kernel _install/boot/zImage -initrd rootfs.cpio.gz -machine virt -nographic -m 512 --append "root=/dev/ram0 rw console=ttyAMA0,115200 mem=512M"
